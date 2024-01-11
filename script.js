@@ -380,55 +380,92 @@
 
 /* 32 */
 /* I person-arrayen längst ner i dokumentet, gör om alla namn till versaler. */
-let persons = [
-    {
-        name: "Felicia",
-        age: 12
-    },
-    {
-        name: "Pelle",
-        age: 20
-    },
-    {
-        name: "Peter",
-        age: 59
-    },
-    {
-        name: "Anna",
-        age: 32
-    },
-    {
-        name: "Jocke",
-        age: 18
-    },
-    {
-        name: "Ella",
-        age: 3
-    }
-]
-let upperCase = persons.map(persons => persons.name.toUpperCase());
-console.log(upperCase)
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+// let upperCase = persons.map(persons => persons.name.toUpperCase());
+// console.log(upperCase)
 
-console.log('Uppgift 32');
+// console.log('Uppgift 32');
 
 /* 33 */
 /* I person-arrayen längst ner i dokumentet, spegelvänd alla namn. */
-console.log('Uppgift 33');
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+// let personsReversed = persons.toReversed();
+// console.log(personsReversed);
+// console.log('Uppgift 33');
 
 /* 34 */
-/* let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; */
-/* Loopa ut följande array med en forEach()-loop. console.log() varje ord. */
-console.log('Uppgift 34');
+//  let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; 
+//  fruits.forEach((i) => console.log(i))
+// /* Loopa ut följande array med en forEach()-loop. console.log() varje ord. */
+// console.log('Uppgift 34');
 
 /* 35 */
-/* let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; */
-/* Loopa ut följande array med en for of-loop. console.log() varje ord. */
-console.log('Uppgift 35');
+//  let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; 
+//  for (let i of fruits) {
+//     console.log(i)
+//  }
+
+// /* Loopa ut följande array med en for of-loop. console.log() varje ord. */
+// console.log('Uppgift 35');
 
 /* 36 */
-/* let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; */
+//  let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; 
+//  for (let i = 0; i < fruits.length; i++){
+//      console.log(`${i + 1}.${fruits[i]}`)
+//  }
+
 /* Loopa ut följande array med en for-loop. console.log() varje ord. */
-console.log('Uppgift 36');
+// console.log('Uppgift 36');
 
 /* 37 */
 /* let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; */
@@ -437,7 +474,11 @@ console.log('Uppgift 36');
 /* 1 - päron */
 /* 2 - äpple */
 /* osv... */
-console.log('Uppgift 37');
+// let fruits = ['apelsin', 'päron', 'äpple', 'kiwi']; 
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(i + ` - ` + fruits[i])
+// }
+// console.log('Uppgift 37');
 
 
 
