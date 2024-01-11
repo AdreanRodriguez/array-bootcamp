@@ -34,8 +34,11 @@
 /* 7 */
 //  let a = [1,2,3]; 
 //  let b = [4,5,6]; 
+//  let newArray = a.concat(b);
+// console.log(newArray)
 // /* Sätt ihop ovanstående arrayer. */
-// console.log('Uppgift 7' + ` ` + a +`,` + b);
+
+// console.log('Uppgift 7');
 
 /* 8 */
 //  let a = [1,2,3,7,8,9];
@@ -163,42 +166,249 @@
 // console.log('Uppgift 23');
 
 /* 24 */
-/* let numArray = [23, 45, 5, 62, 1, 21, 3, 54]; */
-/* I arrayen ovan, filtera fram alla nummer under 5. Tips: Läs dokumentationen för filter() */
-console.log('Uppgift 24');
+//  let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
+//  let numbersUnderFive = numArray.filter(num => num < 5);
+//  console.log(`Nummer som är under 5 är "${numbersUnderFive}"`)
+// /* I arrayen ovan, filtera fram alla nummer under 5. Tips: Läs dokumentationen för filter() */
+// console.log('Uppgift 24');
 
 /* 25 */
-/* Skriv ut alla namn som är 18 år eller över från arrayen längst ner i dokumentet. */
-console.log('Uppgift 25');
+/* Skriv ut alla namn som är 18 år eller över från arrayen i dokumentet. */
+
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+
+
+// // Filtrera personer som är 18 år eller äldre
+//  let adults = persons.filter(person => person.age >= 18);
+
+// // // Skriv ut namnen på de vuxna personerna
+//  adults.forEach(adult => console.log(adult.name));
+// console.log('Uppgift 25');
 
 /* 26 */
 /* Skriv ut alla namn som är under 18 år från arrayen längst ner i dokumentet. */
-console.log('Uppgift 26');
+
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+
+
+// // Filtrera personer som är 18 år eller äldre
+//  let adults = persons.filter(person => person.age < 18);
+
+// // // Skriv ut namnen på de vuxna personerna
+//  adults.forEach(adult => console.log(adult.name));
+// console.log('Uppgift 26');
 
 /* 27 */
-/* let arr = ['beta', 'alfa', 'gamma']; */
-/* Sortera ovanstående array alfabetisk. Tips: Läs dokumentattionen för sort() */
-console.log('Uppgift 27');
+//  let arr = ['beta', 'alfa', 'gamma']; 
+//  arr.sort();
+//  console.log(arr);
+// /* Sortera ovanstående array alfabetisk. Tips: Läs dokumentattionen för sort() */
+// console.log('Uppgift 27');
 
 /* 28 */
-/* let nums = [1,5,7,9,3,4,2,6,8]; */
-/* Sortera ovanstående array numeriskt. */
-console.log('Uppgift 28');
+//  let nums = [1,5,7,9,3,4,2,6,8]; 
+//  nums.sort()
+//  console.log(nums)
+// /* Sortera ovanstående array numeriskt. */
+// console.log('Uppgift 28');
 
 /* 29 */
 /* I person-arrayen längst ner i dokumentet, sortera objekten efter ålder, yngst först. */
-console.log('Uppgift 29');
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+
+// // Sortera värdet
+// persons.sort((a, b) => {return a.age - b.age});
+
+// console.log(persons)
+// console.log('Uppgift 29');
 
 /* 30 */
 /* I person-arrayen längst ner i dokumentet, sortera objekten efter ålder, äldst först. */
-console.log('Uppgift 30');
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+
+// persons.sort((a, b) => {return b.age - a.age});
+// console.log(persons)
+
+// console.log('Uppgift 30');
 
 /* 31 */
 /* I person-arrayen längst ner i dokumentet, sortera objekten i bokstavsordning efter deras namn */
-console.log('Uppgift 31');
+// let persons = [
+//     {
+//         name: "Felicia",
+//         age: 12
+//     },
+//     {
+//         name: "Pelle",
+//         age: 20
+//     },
+//     {
+//         name: "Peter",
+//         age: 59
+//     },
+//     {
+//         name: "Anna",
+//         age: 32
+//     },
+//     {
+//         name: "Jocke",
+//         age: 18
+//     },
+//     {
+//         name: "Ella",
+//         age: 3
+//     }
+// ]
+
+// persons.sort((a, b) => {
+//     let nameA = a.name.toUpperCase(); // Ignorerar stor & liten bokstav
+//     let nameB = b.name.toUpperCase(); // Ignorerar stor & liten bokstav
+
+//     if (nameA < nameB) {
+//         return -1;
+//     }
+//     if (nameA > nameB) {
+//         return 1;
+//     }
+//     return 0;
+
+// })
+
+// console.log(persons)
+
+// console.log('Uppgift 31');
 
 /* 32 */
 /* I person-arrayen längst ner i dokumentet, gör om alla namn till versaler. */
+let persons = [
+    {
+        name: "Felicia",
+        age: 12
+    },
+    {
+        name: "Pelle",
+        age: 20
+    },
+    {
+        name: "Peter",
+        age: 59
+    },
+    {
+        name: "Anna",
+        age: 32
+    },
+    {
+        name: "Jocke",
+        age: 18
+    },
+    {
+        name: "Ella",
+        age: 3
+    }
+]
+let upperCase = persons.map(persons => persons.name.toUpperCase());
+console.log(upperCase)
+
 console.log('Uppgift 32');
 
 /* 33 */
@@ -232,7 +442,7 @@ console.log('Uppgift 37');
 
 
 //Array innehållandes flera objekt
-let persons = [
+/*let persons = [
     {
         name: "Felicia",
         age: 12
@@ -258,4 +468,4 @@ let persons = [
         age: 3
     }
 ]
-console.log(persons)
+*/
